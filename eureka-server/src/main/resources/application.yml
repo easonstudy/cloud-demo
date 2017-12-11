@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 7000
+
+eureka:
+  instance:
+    appname: eureka-server
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+        defaultZone: http://localhost:${server.port}/eureka/
+
+#显示服务器详细的健康信息
+management:
+  security:
+    enabled: false
+
+

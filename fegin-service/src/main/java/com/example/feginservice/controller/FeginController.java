@@ -13,6 +13,7 @@ public class FeginController {
 
     @RequestMapping("/hi/{msg}")
     public String index(@PathVariable("msg") String msg) {
-        return smsRemote.send(msg);
+       // return "dd";
+        return smsRemote.dosend(msg);
     }
 }

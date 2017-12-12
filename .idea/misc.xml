@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/order-serivce/pom.xml" />
         <option value="$PROJECT_DIR$/sms-service/pom.xml" />
         <option value="$PROJECT_DIR$/fegin-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-demo/pom.xml" />
       </list>
     </option>
   </component>

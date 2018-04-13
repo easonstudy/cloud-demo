@@ -6,12 +6,14 @@ server:
 
 eureka:
   instance:
+    hostname: localhost
     appname: eureka-server
   client:
+    #通过eureka.client.registerWithEureka：false和 fetchRegistry：false来表明自己是一个eureka server.
     register-with-eureka: false
     fetch-registry: false
     service-url:
-        defaultZone: http://localhost:${server.port}/eureka/
+        defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
 #显示服务器详细的健康信息
 management:

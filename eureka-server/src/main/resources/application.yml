@@ -15,6 +15,7 @@ eureka:
     service-url:
         defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
+
 #显示服务器详细的健康信息
 management:
   security:

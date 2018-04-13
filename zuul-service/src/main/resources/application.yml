@@ -7,6 +7,8 @@ server:
 spring:
   application:
     name: zuul-service
+
+
 zuul:
   routes:
     api-a:

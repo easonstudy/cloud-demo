@@ -1,0 +1,27 @@
+
+spring:
+  application:
+    name: peer1
+  profiles: peer1
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: peer1
+    #prefer-ip-address: true
+    #appname: eureka-server
+  client:
+    #通过eureka.client.registerWithEureka：false和 fetchRegistry：false来表明自己是一个eureka server.
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+        defaultZone: http://peer2:8762/eureka/
+
+
+#显示服务器详细的健康信息
+management:
+  security:
+    enabled: false
+
+

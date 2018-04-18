@@ -9,6 +9,7 @@
         <module name="bus-service" />
         <module name="config-client" />
         <module name="config-server" />
+        <module name="eureka-peer-server" />
         <module name="eureka-server" />
         <module name="fegin-service" />
         <module name="hi-service" />
@@ -28,6 +29,7 @@
       <module name="config-server" target="1.8" />
       <module name="dashboard" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="eureka-peer-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="fegin-service" target="1.8" />
       <module name="hi" target="1.8" />

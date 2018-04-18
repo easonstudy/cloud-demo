@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/cloud-demo.iml" filepath="$PROJECT_DIR$/.idea/cloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-peer-server/eureka-peer-server.iml" filepath="$PROJECT_DIR$/eureka-peer-server/eureka-peer-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/fegin-service/fegin-service.iml" filepath="$PROJECT_DIR$/fegin-service/fegin-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/hi-service/hi-service.iml" filepath="$PROJECT_DIR$/hi-service/hi-service.iml" />

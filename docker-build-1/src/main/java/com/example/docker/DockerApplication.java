@@ -15,7 +15,7 @@ public class DockerApplication {
 	}
 
 	@ResponseBody
-	@RequestMapping(value = "/")
+	@RequestMapping(value = "/hello")
 	String home(){
 		return "Hello Docker World";
 	}

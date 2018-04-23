@@ -1,4 +1,4 @@
-FROM guo/docker:slim
+FROM guo/build:slim
 VOLUME /tmp
 ADD docker-1.0-SNAPSHOT.jar app.jar
 RUN sh -c 'touch /app.jar'

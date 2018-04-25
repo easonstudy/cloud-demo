@@ -17,6 +17,10 @@
         <option value="$PROJECT_DIR$/zipkin-service/pom.xml" />
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-peer-server/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine-service/pom.xml" />
+        <option value="$PROJECT_DIR$/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-service/pom.xml" />
+        <option value="$PROJECT_DIR$/docker-build-1/pom.xml" />
       </list>
     </option>
   </component>

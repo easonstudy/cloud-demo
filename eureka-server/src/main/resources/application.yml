@@ -2,11 +2,12 @@ spring:
   application:
     name: eureka-server
 server:
-  port: 7000
+  port: 8761
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: peer1
+    # prefer-ip-address: true
     #appname: eureka-server
   client:
     #通过eureka.client.registerWithEureka：false和 fetchRegistry：false来表明自己是一个eureka server.

@@ -1,0 +1,15 @@
+version: '3'
+services:
+  eureka-server:
+    image: cloud-demo/eureka-server
+    restart: always
+    ports:
+      - 8761:8761
+
+  service-hi:
+    image: cloud-demo/hiservice
+    restart: always
+    ports:
+      - 8763:8763
+
+
